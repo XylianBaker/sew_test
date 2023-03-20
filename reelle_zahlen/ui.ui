@@ -54,7 +54,17 @@
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="input"/>
+       <widget class="QDoubleSpinBox" name="input">
+        <property name="decimals">
+         <number>6</number>
+        </property>
+        <property name="minimum">
+         <double>-1000.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>1000.000000000000000</double>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -71,7 +81,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QCheckBox" name="checkbox_complexe_numbers">
+       <widget class="QCheckBox" name="checkbox_complex_numbers">
         <property name="text">
          <string>Komplexe Zahl</string>
         </property>
