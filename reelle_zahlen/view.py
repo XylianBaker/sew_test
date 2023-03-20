@@ -9,7 +9,7 @@ class View(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        uic.loadUi("./test.ui", self)
+        uic.loadUi("./ui.ui", self)
         self.output.setReadOnly(True)
 
     def reset(self) -> None:
